@@ -1,0 +1,35 @@
+{
+    "name": "manyapps.sil",
+    "description": "description of manyapps",
+    "architecture": "all",
+    "title": "manyapps",
+    "hooks": {
+        "manyapps": {
+            "apparmor": "manyapps.apparmor",
+            "desktop": "manyapps.desktop"
+        },
+        "subapp1": {
+            "apparmor": "manyapps.apparmor",
+            "desktop": "subapp1.desktop",
+            "urls": "subapp1.url-dispatcher"
+        },
+        "subapp2": {
+            "apparmor": "manyapps.apparmor",
+            "desktop": "subapp2.desktop",
+            "urls": "subapp2.url-dispatcher"
+        },
+        "subapp3": {
+            "apparmor": "manyapps.apparmor",
+            "desktop": "subapp3.desktop",
+            "urls": "subapp3.url-dispatcher"
+        },
+        "subapp4": {
+            "apparmor": "manyapps.apparmor",
+            "desktop": "subapp4.desktop",
+            "urls": "subapp4.url-dispatcher"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Stuart Langridge <sil-launchpad@kryogenix.org>",
+    "framework": "ubuntu-sdk-15.04"
+}

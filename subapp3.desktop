@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=manyapps
+Exec=qmlscene %u subapp.qml 3
+Icon=manyapps.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
